@@ -17,18 +17,18 @@
 	</header>
 	<main>
 		<div id="editor">
-			<textarea>hello</textarea>
-			<div>
-				<p>hello</p>
-			</div>
+			<textarea v-model="text"></textarea>
+			<div v-html="compiled"></div>
 		</div>	
 	</main>
 	
 	<!-- jQuery Core 3.1.0, minified -->
-	<script
+	<!-- <script
 	  src="https://code.jquery.com/jquery-3.1.0.min.js"
 	  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
-	  crossorigin="anonymous"></script>
+	  crossorigin="anonymous"></script> -->
+	<!-- vue.js -->
+	<script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
 	<!-- HTML5 -->
 	<script src="app.js"></script>
 </body>
