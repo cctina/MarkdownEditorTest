@@ -58,8 +58,20 @@ textarea {
 
 /*presentation*/
 code {
-	color: #f62;
+	/*color: #f62;*/
+	color: #555;
 	background-color: #fff;
 	padding: 2px 5px;
 	border-radius: 2px; 
+}
+
+pre {
+	display: block;
+	background-color: #fff;
+	padding: 10px;
+}
+
+pre code {
+	padding: 0;
+	border-radius: 0; 
 }
